@@ -1,0 +1,52 @@
+/* Style buttons */
+.btn {
+    background-color: rgb(108, 74, 182); /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Add padding to the buttons */
+    border: none; /* Remove button borders */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red background color for the "Back" button */
+}
+
+/* Style dropdowns */
+.form-control {
+    width: 100%; /* Make the dropdowns and input fields full width */
+    padding: 10px; /* Add padding to the dropdowns and input fields */
+    border: 1px solid #ccc; /* Add a border to the dropdowns and input fields */
+    border-radius: 5px; /* Add rounded corners to the dropdowns and input fields */
+    margin-bottom: 10px; /* Add margin to separate form elements */
+}
+
+/* Style the select dropdown */
+select.form-control {
+    appearance: none; /* Remove default arrow icon */
+    background-image: url('arrow-down.png'); /* Add a custom arrow icon */
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 30px; /* Add space for the arrow icon */
+}
+
+/* Add hover effect for buttons */
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style the "Add" button */
+.btn-primary {
+    background-color: #28a745; /* Green background color for the "Add" button */
+}
+
+/* Style the form labels */
+label {
+    font-weight: bold; /* Make labels bold */
+}
+
+/* Style the file input field */
+input[type="file"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
